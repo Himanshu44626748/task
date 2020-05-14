@@ -1,0 +1,519 @@
+.logo{
+    position: absolute;
+    max-width: 25%;
+    margin-left: 5%;
+}
+ul.top{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    overflow: hidden;
+    margin-right: 8%;
+}
+li.navigation{
+    float: right;
+    margin-top: 1.8%;
+}
+
+li.navigation a{
+    display: block;
+    font-size: 1.5vw;
+    color: #b4b4b4;
+    text-decoration: none;
+    padding: 3px;
+    text-align: center;
+}
+
+li.navigation a:hover{
+    background-color: #ffc400;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 50px;
+}
+.firstcontainer{
+    display: table;
+    flex-direction: row;
+    margin-left: 8%;
+
+}
+.firstchild{
+    float: left;
+    width: 50%;
+    margin-top: 10%;
+}
+.creative{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.5vw;
+}
+.ezewev{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.5vw;
+    color: #ffc400;
+}
+.weare{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.3vw;
+}
+.lorem{
+    font-family: 'Baloo 2', cursive;
+    color: #b4b4b4;
+    font-size: 1.1vw;
+}
+.hireme{
+    display: block;
+    padding: 5px 10px;
+    background-color: #ffc400;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1vw;
+}
+.hireme:hover{
+    background-color: #ffae00;
+}
+.hireme:active{
+    border: none;
+}
+.secondchild{
+    float: left;
+    width: 50%;
+    margin-top: 5%;
+}
+@media screen and (min-width: 500px){
+    li.navigation a{
+        padding: 15px;
+        font-size: 1.3vw;
+    }
+    .hireme{
+        padding: 15px 25px;
+    }
+}
+.additional{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    color: #b4b4b4;
+    font-size: 1.1vw;
+}
+.card{
+    display: block;
+    margin-left: 8%;
+    margin-right: auto;
+}
+ul.design{
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    padding: 1em;
+    width: inherit;
+    font-family: 'Baloo 2', cursive;
+    overflow: hidden;
+    margin-top: 8%;
+    
+}
+li.services{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+li.services a{
+    display: block;
+    font-size: 1.1vw;
+    color: #b4b4b4;
+    text-decoration: none;
+    padding: 2em;
+    text-align: center;
+}
+li.services a:hover{
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 600px){
+    ul.design{
+        margin: 0;
+        padding: 0;
+    }
+    .card{
+        margin-left: 8%;
+    }
+}
+.secondcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.whyyouimage{
+    float: left;
+    width: 50%;
+}
+.whyyou{
+    float: left;
+    display: block;
+    width: 50%;
+    margin-top: 2%;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.1vw;
+    color: #b4b4b4;
+}
+.thirdcontainer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3em;
+    box-sizing: border-box;
+}
+.over{
+    width: 50%;
+    float: left;
+    display: block;
+    margin-top: 10%;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.1vw;
+    color: #b4b4b4;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 5%;
+}
+.uppericons{
+    display: flex;
+    flex-direction: row;
+}
+.lowericons{
+    display: flex;
+    flex-direction: row;
+}
+ul.upper{
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+    margin-top: 5%;
+}
+ul.lower{
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+    margin-top: 2%;
+}
+li.experience{
+    float: left;
+}
+li.experience a{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: #b4b4b4;
+    text-decoration: none;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-align: center;
+}
+li.experience a:hover{
+    border-style: dashed;
+    border-color: #ffae00;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+    width: 50%; 
+    height: auto;
+}
+.complete{
+    font-size: 3.2vw;
+}
+.completep{
+    font-size: 1.1vw;
+}
+@media screen and (max-width: 600px){
+    .icons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .complete{
+        font-size: 3.5vw;
+    }
+    .completep{
+        font-size: 1.3vw;
+    }
+    ul.upper{
+        display: block;
+    }
+    ul.lower{
+        display: block;
+    }
+    .thirdcontainer{
+        padding-left: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    .over{
+        margin-left: 20%;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .image{
+        width: 100%; 
+        height: 100%;
+    }
+    li.experience a{
+        padding-bottom: 2em;
+        padding-top: 2em;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}
+.fourthcontainer{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+}
+.trans{
+    width: 30%;
+    height: 80%;
+    display: block;
+    border-style: none;
+    border-radius: 35px;
+    margin-left: 5%;
+    transition: transform 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.trans:hover{
+    transform: rotate(15deg);
+}
+.youwill{
+    width: 50%;
+    font-family: 'Baloo 2', cursive;
+    color: #b4b4b4;
+    font-size: 1.1vw;
+    padding: 3em;
+}
+@media screen and (max-width: 600px){
+    .row1{
+        padding: 1em;
+    }
+    .row2{
+        padding: 1em;
+    }
+    .trans{
+        width: 30%;
+        height: 100%;
+        border-style: none;
+        border-radius: 10px;
+        margin-right: 5%;
+    }
+    .youwill{
+        padding: 1em;
+    }
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+.dashed{
+    width: 20%;
+    height: 20%;
+    display: block;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.dashed:hover{
+    border-style: dashed;
+    border-color: #ffae00;
+}
+@media screen and (max-width: 600px){
+    .price{
+        margin-left: 10%;
+    }
+    .dashed{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+.fifthcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.touch{
+    display: block;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.inputs{
+    padding-top: 1em;
+}
+input[type=text]{
+    width: 80%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #b4b4b4;
+    padding: 1em;
+    border-radius: 25px;
+    font-family: 'Baloo 2', cursive;
+    color: #ffae00;
+    font-size: 1vw;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=text].message{
+    width: 80%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #b4b4b4;
+    padding-right: 10em;
+    padding-bottom: 10em;
+    border-radius: 25px;
+    font-family: 'Baloo 2', cursive;
+    color: #b4b4b4;
+    font-size: 1vw;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=submit]{
+    padding: 1em 2em;
+    background-color: #ffc400;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1vw;
+}
+.info{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+input[type=text]:hover{
+    border: 2px solid #ffae00;
+}
+input[type=text].message:hover{
+    border: 2px solid #ffae00;
+}
+input[type=text]:hover{
+    border: 2px solid #ffae00;
+}
+input[type=text].message:hover{
+    border: 2px solid #ffae00;
+}
+input[type=submit]:hover{
+    background-color: #ffae00;
+}
+@media screen and (max-width: 600px){
+    .info{
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+    }
+    input[type=text]{
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+        border: 1px solid #b4b4b4;
+    }
+    input[type=text].message{
+        padding-right: 7em;
+        padding-bottom: 7em;
+        border-radius: 10px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+        border: 1px solid #b4b4b4;
+    }
+    input[type=text]:hover{
+        border: 1px solid #ffae00;
+    }
+    input[type=text].message:hover{
+        border: 1px solid #ffae00;
+    }
+}
+.sixthcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    background-color: #353434;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+}
+.social{
+    width: 50%;
+    display: block;
+    margin-top: 5%;
+    padding: 2em;
+}
+.map{
+    display: block;
+    width: 50%;
+    padding: 2em;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: #ffae00;
+    border: 2px solid #ffae00;
+  }
+  .slogo{
+    max-width: 25%;
+    margin-left: 5%;
+  }
+.mapimage{
+    max-width: 90%;
+}
+  @media screen and (max-width: 600px){
+    .slogo{
+        max-width: 50%;
+        margin-left: 5%;
+      }
+      .sixthcontainer{
+          width: 100%;
+      }
+      .fa{
+          width: 5px;
+          padding: 5px;
+          margin: 3px 1px;
+          border: 1px solid #ffae00;
+      }
+      .social{
+          margin-top: 8%;
+          font-size: 1.1vw;
+      }
+  }
+.copyright{
+    background-color: #ffae00;
+    font-size: 1.3vw;
+    color: black;
+    font-family: 'Baloo 2', cursive;
+}
